@@ -76,6 +76,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74013AE126F516A600D3F378 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				74C9F2D926F488A200DE3698 /* AppDelegate.swift */,
+				74C9F2DB26F488A200DE3698 /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		74013AE226F516B600D3F378 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				74C9F2DF26F488A200DE3698 /* Main.storyboard */,
+				74C9F2E426F488A200DE3698 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		74013AE326F516D300D3F378 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74C9F2DD26F488A200DE3698 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		74C9F2CD26F488A200DE3698 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +125,10 @@
 		74C9F2D826F488A200DE3698 /* GeekShop */ = {
 			isa = PBXGroup;
 			children = (
-				74C9F2D926F488A200DE3698 /* AppDelegate.swift */,
-				74C9F2DB26F488A200DE3698 /* SceneDelegate.swift */,
-				74C9F2DD26F488A200DE3698 /* ViewController.swift */,
-				74C9F2DF26F488A200DE3698 /* Main.storyboard */,
+				74013AE326F516D300D3F378 /* App */,
+				74013AE226F516B600D3F378 /* Storyboards */,
+				74013AE126F516A600D3F378 /* System */,
 				74C9F2E226F488A200DE3698 /* Assets.xcassets */,
-				74C9F2E426F488A200DE3698 /* LaunchScreen.storyboard */,
 				74C9F2E726F488A200DE3698 /* Info.plist */,
 			);
 			path = GeekShop;
